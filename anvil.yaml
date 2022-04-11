@@ -1,8 +1,29 @@
-allow_embedding: false
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {auto_create_missing_columns: false}
 package_name: Midterm_Resubmission
-db_schema: {}
+allow_embedding: false
 name: Midterm Resubmission
-startup_form: Form1
-renamed: true
 runtime_options: {version: 2, client_version: '3', server_version: python3-full}
-services: []
+metadata: {}
+startup_form: Form1
+db_schema:
+  feedback:
+    title: feedback
+    client: full
+    server: full
+    columns:
+    - name: message
+      admin_ui: {width: 200}
+      type: string
+    - name: predicted_suicide_prob
+      admin_ui: {width: 200}
+      type: number
+    - name: normal
+      admin_ui: {width: 200}
+      type: bool
+    - name: urgent
+      admin_ui: {width: 200}
+      type: bool
+renamed: true
