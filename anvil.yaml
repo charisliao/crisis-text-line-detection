@@ -1,6 +1,8 @@
 allow_embedding: false
-package_name: Material_Design_1
-name: Material Design 1
+package_name: Midterm_Resubmission
+db_schema: {}
+name: Midterm Resubmission
 startup_form: Form1
+renamed: true
 runtime_options: {version: 2, client_version: '3', server_version: python3-full}
 services: []
