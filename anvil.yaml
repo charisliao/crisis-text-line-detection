@@ -6,7 +6,10 @@ package_name: Crisis_Text_Line_Detection
 allow_embedding: false
 name: Crisis Text Line Detection
 runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
-metadata: {description: ''}
+metadata: {description: 'Revolutionizing mental health awareness, our user-friendly
+    interface seamlessly integrates with a dynamic database. The Colab notebook unveils
+    a potent Gradient Boosting Decision Tree model, achieving an exceptional AUC surpassing
+    99%.'}
 startup_form: Form1
 db_schema:
   feedback:
