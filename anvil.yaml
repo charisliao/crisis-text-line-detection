@@ -2,11 +2,11 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {auto_create_missing_columns: false}
-package_name: Midterm_Resubmission
+package_name: Crisis_Text_Line_Detection
 allow_embedding: false
-name: Midterm Resubmission
-runtime_options: {version: 2, client_version: '3', server_version: python3-full}
-metadata: {}
+name: Crisis Text Line Detection
+runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
+metadata: {description: ''}
 startup_form: Form1
 db_schema:
   feedback:
